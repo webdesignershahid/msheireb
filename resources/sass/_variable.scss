@@ -1,0 +1,21 @@
+// Root Variable
+:root {
+    // Fonts
+    --font-interface: "InterFaceBlack";
+    --font-opensans: 'Open Sans', sans-serif; 
+
+    // Colors
+    --color-theme: #5E3666;
+    --color-black: #0a0909;
+    --color-white: #ffffff;
+    --color-green: #517B70;
+    --color-: ;
+}
+
+// Responsive Breakpoints
+$xxl:   '(min-width: 1400px)';
+$xl:    '(min-width: 1200px)';
+$lg:    '(min-width: 992px)';
+$md:    '(min-width: 768px)';
+$sm:    '(min-width: 576px)';
+$xsm:   '(max-width: 575.98px)';

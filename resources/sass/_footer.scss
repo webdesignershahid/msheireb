@@ -1,0 +1,91 @@
+footer {
+
+    .widget {
+        padding: 60px 30px;
+        
+        @media #{$lg} {
+            padding: 100px 30px;
+            max-width: 420px;
+        }
+
+        .widget-title {
+            color: var(--color-theme);
+            font-size: 22px;
+            font-weight: 600;
+            margin-bottom: 40px;
+            padding-left: 50px;
+            position: relative;
+
+            svg {
+                position: absolute;
+                left: 0;
+                top: 0;
+            }
+        }
+
+        ul  {
+            li {
+                padding-left: 50px;
+                position: relative;
+                color: #AAAAAA;
+                line-height: 36px;
+
+                svg {
+                    position: absolute;
+                    left: 0;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    color: var(--color-theme);
+                }
+
+                a {
+                    color: #AAAAAA;
+                    transition: all 0.3s;
+
+                    &:hover {
+                        color: var(--color-theme);
+                    }
+                }
+            }
+        }
+    }
+
+    .footer-bottom {
+        .d-lg-flex {
+            padding: 30px 60px;
+            border-top-right-radius: 30px;
+            border-bottom-right-radius: 30px;
+            border-bottom-left-radius: 30px;
+        }
+
+        .social-icons {
+            a {
+                color: var(--color-white);
+                opacity: .6;
+                margin: 0 5px;
+                font-size: 22px;
+            }
+        }
+        .term-condition {
+            @media #{$lg} {
+                margin-left: 30px;
+            }
+            a {
+                color: #C8A1CF;
+                font-size: 14px;
+                font-weight: 300;
+                margin-left: 15px;
+            }
+        }
+
+        .copyright {
+            padding: 24px 0;
+
+            p {
+                color: #C8A1CF;
+                font-weight: 300;
+                font-size: 16px;
+            }
+        }
+    }
+}

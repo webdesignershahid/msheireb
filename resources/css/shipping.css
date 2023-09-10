@@ -1,0 +1,83 @@
+.shipping-wrapper {
+  padding: 90px 0;
+}
+
+.shipping-wrapper .sidebar h4 {
+  border-bottom: 1px solid #dee2e6;
+  font-weight: 700;
+  font-size: 1rem;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+  position: relative;
+}
+
+.shipping-wrapper .sidebar h4::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 60px;
+  background-color: #dee2e6;
+}
+
+.shipping-wrapper .sidebar .summery-table .product a {
+  line-height: 18px;
+  display: block;
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+
+.shipping-wrapper .sidebar .summery-table .product p {
+  font-size: 14px;
+  line-height: normal;
+  margin-top: 5px;
+}
+
+.shipping-wrapper .sidebar .summery-table .product tr {
+  margin-bottom: 15px;
+  display: block;
+}
+
+.shipping-wrapper .sidebar .rout-to {
+  margin-top: 30px;
+}
+
+.shipping-wrapper .sidebar .rout-to a {
+  display: block;
+  text-align: center;
+  border: 1px solid #dee2e6;
+  padding: 14px 15px;
+  border-radius: 4px;
+  font-weight: 600;
+  background-color: var(--color-theme);
+  color: var(--color-white);
+  transition: all 0.2s;
+}
+
+.shipping-wrapper .sidebar .rout-to a:hover {
+  background-color: #9c1800;
+}
+
+.shipping-wrapper .shipping-method {
+  padding: 30px;
+}
+
+.shipping-wrapper .shipping-method .heading {
+  font-weight: 700;
+  border-bottom: 1px solid #dee2e6;
+  margin-bottom: 20px;
+  padding-bottom: 15px;
+  position: relative;
+}
+
+.shipping-wrapper .shipping-method .heading::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 60px;
+  background-color: #dee2e6;
+}
+/*# sourceMappingURL=shipping.css.map */
